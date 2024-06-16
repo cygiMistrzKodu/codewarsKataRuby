@@ -1,0 +1,10 @@
+excluded_patterns:
+  - "**/spec/**/*.rb"
+
+
+excluded_gems:
+  - rubocop
+  - pathname
+
+  included_gems:
+  - prism
