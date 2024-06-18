@@ -1,3 +1,6 @@
+# frozen_string_literal: true
+require_relative 'solution'
+
 describe 'Sample tests' do
   it 'Some examples' do
     expect(shortcut('hello')).to eq('hll')

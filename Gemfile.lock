@@ -52,17 +52,6 @@ GEM
       unicode-display_width (>= 2.4.0, < 3.0)
     rubocop-ast (1.31.3)
       parser (>= 3.3.1.0)
-    rubocop-packaging (0.5.2)
-      rubocop (>= 1.33, < 2.0)
-    rubocop-performance (1.21.1)
-      rubocop (>= 1.48.1, < 2.0)
-      rubocop-ast (>= 1.31.1, < 2.0)
-    rubocop-rspec (3.0.1)
-      rubocop (~> 1.61)
-    rubocop-shopify (2.15.1)
-      rubocop (~> 1.51)
-    rubocop-thread_safety (0.5.1)
-      rubocop (>= 0.90.0)
     ruby-lsp (0.17.3)
       language_server-protocol (~> 3.17.0)
       prism (>= 0.29.0, < 0.31)
@@ -84,11 +73,6 @@ PLATFORMS
 DEPENDENCIES
   rspec (= 3.10.0)
   rubocop
-  rubocop-packaging
-  rubocop-performance
-  rubocop-rspec
-  rubocop-shopify
-  rubocop-thread_safety
   ruby-lsp
   sqlite3 (~> 1.4, >= 1.4.2)
   webmock (~> 3.23, >= 3.23.1)
