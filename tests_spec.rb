@@ -6,7 +6,3 @@ describe 'Sample tests' do
     expect(shortcut('HELLO')).to eq('HELLO')
   end
 end
-
-# def shortcut(s)
-#   8
-# end

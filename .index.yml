@@ -3,8 +3,8 @@ excluded_patterns:
 
 
 excluded_gems:
-  - rubocop
-  - pathname
-
+   - rubocop
+   - pathname
+ 
   included_gems:
-  - prism
+   - prism
