@@ -1,11 +1,9 @@
-# frozen_string_literal: true
 require_relative 'solution'
 
-describe 'Sample tests' do
-  it 'Some examples' do
-    expect(shortcut('hello')).to eq('hll')
-    expect(shortcut('codewars')).to eq('cdwrs')
-    expect(shortcut('goodbye')).to eq('gdby')
-    expect(shortcut('HELLO')).to eq('HELLO')
+describe 'fix add five' do
+  it 'fixed tests' do
+    expect(addFive(5)).to eq(10)
+    expect(addFive(0)).to eq(5)
+    expect(addFive(-5)).to eq(0)
   end
 end

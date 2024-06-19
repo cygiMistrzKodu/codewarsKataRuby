@@ -6,5 +6,5 @@ excluded_gems:
    - rubocop
    - pathname
  
-  included_gems:
+included_gems:
    - prism

@@ -1,5 +1,6 @@
 # frozen_string_literal: true
 
-def shortcut(s = 'lsls')
-  s.gsub(/[aeiou]/, '')
+def addFive(num)
+  res = num + 5
+  return num
 end
