@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require_relative 'solution'
 
 describe 'Fixed tests' do
