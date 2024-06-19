@@ -1,6 +1,5 @@
 # frozen_string_literal: true
 
 def addFive(num)
-  res = num + 5
-  return num
+  num + 5
 end
