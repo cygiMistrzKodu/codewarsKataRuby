@@ -2,9 +2,10 @@
 
 require_relative 'solution'
 
-RSpec.describe 'Solution' do
-  it 'should find numbers' do
-    expect(switch_it_up(1)).to eq('One')
-    expect(switch_it_up(7)).to eq('Seven')
+describe 'Solution' do
+  it 'Should work for fixed tests' do
+    expect(merge_arrays([1, 2, 3, 4], [5, 6, 7, 8])).to eq([1, 2, 3, 4, 5, 6, 7, 8])
+    expect(merge_arrays([1, 3, 5, 7, 9], [10, 8, 6, 4, 2])).to eq([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
+    expect(merge_arrays([1, 3, 5, 7, 9, 11, 12], [1, 2, 3, 4, 5, 10, 12])).to eq([1, 2, 3, 4, 5, 7, 9, 10, 11, 12])
   end
 end
