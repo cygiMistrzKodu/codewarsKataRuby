@@ -1,6 +1,5 @@
 # frozen_string_literal: true
 
-def main[verb, noun]
-  return ;
+def main(verb, noun)
   verb + noun
-}
+end
