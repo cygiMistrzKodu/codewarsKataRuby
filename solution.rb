@@ -1,5 +1,9 @@
 # frozen_string_literal: true
 
-def main(verb, noun)
-  verb + noun
+def min(list)
+  list.min
+end
+
+def max(list)
+  list.max
 end
