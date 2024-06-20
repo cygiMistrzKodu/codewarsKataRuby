@@ -1,9 +1,5 @@
 # frozen_string_literal: true
 
-def min(list)
-  list.min
-end
-
-def max(list)
-  list.max
+def switch_it_up(number)
+  # Write your code here...
 end

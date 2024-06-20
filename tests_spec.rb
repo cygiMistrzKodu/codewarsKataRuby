@@ -2,11 +2,9 @@
 
 require_relative 'solution'
 
-describe 'Test' do
-  it 'Examples' do
-    expect(min([-52, 56, 30, 29, -54, 0, -110])).to eq(-110)
-    expect(min([42, 54, 65, 87, 0])).to eq(0)
-    expect(max([4, 6, 2, 1, 9, 63, -134, 566])).to eq(566)
-    expect(max([5])).to eq(5)
+RSpec.describe 'Solution' do
+  it 'should find numbers' do
+    expect(switch_it_up(1)).to eq('One')
+    expect(switch_it_up(7)).to eq('Seven')
   end
 end
