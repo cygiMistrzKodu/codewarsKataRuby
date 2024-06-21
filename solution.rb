@@ -1,5 +1,5 @@
 # frozen_string_literal: true
 
-def add_length(str)
-  # your code here
+def add_length(str = '')
+  str.split(' ').collect { |word| "#{word} #{word.length}" }
 end
