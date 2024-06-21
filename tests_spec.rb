@@ -2,11 +2,12 @@
 
 require_relative 'solution'
 
-describe('Add Length') do
-  it('Sample Tests') do
-    expect(add_length('apple ban')).to eq(['apple 5', 'ban 3'])
-    expect(add_length('you will win')).to eq(['you 3', 'will 4', 'win 3'])
-    expect(add_length('you')).to eq(['you 3'])
-    expect(add_length('y')).to eq(['y 1'])
+describe "Solution" do
+  it "Fixed tests" do
+    expect(find_average([1])).to eq(1)
+    expect(find_average([1, 3, 5, 7])).to eq(4)
+    expect(find_average([-1, 3, 5, -7])).to eq(0)
+    expect(find_average([5, 7, 3, 7])).to eq(5.5)
+    expect(find_average([0])).to eq(0)
   end
 end
