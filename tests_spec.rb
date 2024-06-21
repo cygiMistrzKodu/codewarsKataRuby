@@ -2,10 +2,14 @@
 
 require_relative 'solution'
 
-describe 'Solution' do
-  it 'Should work for fixed tests' do
-    expect(merge_arrays([1, 2, 3, 4], [5, 6, 7, 8])).to eq([1, 2, 3, 4, 5, 6, 7, 8])
-    expect(merge_arrays([1, 3, 5, 7, 9], [10, 8, 6, 4, 2])).to eq([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
-    expect(merge_arrays([1, 3, 5, 7, 9, 11, 12], [1, 2, 3, 4, 5, 10, 12])).to eq([1, 2, 3, 4, 5, 7, 9, 10, 11, 12])
+describe 'first_non_consecutive' do
+  it 'powinno działać dla stałych testów' do
+    expect(first_non_consecutive([1, 2, 3, 4, 6, 7, 8])).to eq(6)
+    expect(first_non_consecutive([1, 2, 3, 4, 5, 6, 7, 8])).to be_nil
+    expect(first_non_consecutive([4, 6, 7, 8, 9, 11])).to eq(6)
+    expect(first_non_consecutive([4, 5, 6, 7, 8, 9, 11])).to eq(11)
+    expect(first_non_consecutive([31, 32])).to be_nil
+    expect(first_non_consecutive([-3, -2, 0, 1])).to eq(0)
+    expect(first_non_consecutive([-5, -4, -3, -1])).to eq(-1)
   end
 end
