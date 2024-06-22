@@ -7,5 +7,7 @@ describe 'Solution' do
     expect(get_real_floor(1)).to eq(0)
     expect(get_real_floor(5)).to eq(4)
     expect(get_real_floor(15)).to eq(13)
+    expect(get_real_floor(0)).to eq(0)
+    expect(get_real_floor(-3)).to eq(-3)
   end
 end
